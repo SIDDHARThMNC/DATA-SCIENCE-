@@ -1,3 +1,39 @@
+"""
+CAPSTONE PROJECT: Student Success & Career Path Prediction
+
+SCENARIO:
+The university wants to analyze student performance data to:
+- Predict exam scores (Regression)
+- Classify students into "At Risk" vs "On Track" categories (Classification)
+- Cluster students into groups with similar study habits (Clustering)
+- Recommend interventions (extra tutoring, workshops, counseling)
+
+DATASET FEATURES:
+- Student_ID: Unique identifier
+- Hours_Studied: Weekly study hours
+- Attendance (%): Class attendance percentage
+- Assignments_Submitted: Number of assignments completed
+- Previous_Sem_GPA: GPA from previous semester
+- Participation_Score: Class participation rating
+- Final_Exam_Score: Final exam score (target for regression)
+- Pass_Fail: Pass or Fail status (target for classification)
+- Career_Readiness_Score: Career preparation score
+- Age: Student age
+- Gender: Male or Female
+
+OBJECTIVES:
+1. REGRESSION: Predict final exam scores based on study habits and performance
+2. CLASSIFICATION: Identify students at risk of failing
+3. CLUSTERING: Group students by similar characteristics for targeted interventions
+4. RECOMMENDATIONS: Provide specific intervention strategies for each student group
+
+QUESTIONS TO EXPLORE:
+- What factors most strongly predict exam success?
+- Can we identify at-risk students early enough to help them?
+- What are the distinct student profiles in our dataset?
+- What interventions would be most effective for each group?
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

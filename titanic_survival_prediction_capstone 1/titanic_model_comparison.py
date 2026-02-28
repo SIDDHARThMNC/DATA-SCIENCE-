@@ -1,3 +1,38 @@
+"""
+SCENARIO: Predicting Titanic Survival
+
+Researchers are studying the Titanic disaster and want to build models that predict 
+whether a passenger would survive or not based on their information.
+
+Features used:
+- Passenger class (pclass)
+- Gender (sex)
+- Age (age)
+- Number of siblings/spouses aboard (sibsp)
+- Number of parents/children aboard (parch)
+- Ticket fare (fare)
+
+Label:
+- 1 = Survived
+- 0 = Died
+
+The researchers train three different models:
+- Logistic Regression
+- K-Nearest Neighbors (KNN) with k=5
+- Decision Tree with max depth = 4
+
+They then evaluate each model using a classification report (precision, recall, F1-score, accuracy).
+
+QUESTIONS:
+- Which model performs best at predicting survival, and why?
+- How does Logistic Regression differ from Decision Tree in terms of interpretability?
+- Why is scaling applied before training Logistic Regression and KNN, but not strictly needed for Decision Trees?
+- Looking at the classification report, what do precision and recall mean in the context of survival predictions?
+  * Precision: Of those predicted to survive, how many actually survived?
+  * Recall: Of all who truly survived, how many were correctly predicted?
+- If you were a historian, which model would you trust more to explain survival patterns, and why?
+"""
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
