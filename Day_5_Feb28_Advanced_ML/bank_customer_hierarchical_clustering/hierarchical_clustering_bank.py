@@ -1,3 +1,32 @@
+"""
+SCENARIO: Retail Bank Customer Segmentation
+
+A retail bank wants to understand its customers better by analyzing Age and Annual Income.
+The goal is to group customers into meaningful segments for targeted financial products.
+
+FEATURES:
+- Age: Customer age in years
+- Annual Income: Yearly income in rupees
+
+OBJECTIVES:
+- Apply Hierarchical Clustering to discover natural customer groups
+- Use Dendrogram to visualize cluster hierarchy
+- Compare different linkage methods (Ward, Complete, Average, Single)
+- Validate with Silhouette Score
+
+EXPECTED SEGMENTS:
+- Young Starters: Low income, younger age (entry-level products)
+- Growing Professionals: Moderate income, mid-age (career growth products)
+- Established Earners: Good income, mature age (wealth building)
+- High-Income Segment: High income, senior age (premium services)
+
+BUSINESS APPLICATIONS:
+- Targeted loan offers for each segment
+- Personalized investment plans
+- Marketing campaigns tailored to customer needs
+- Risk assessment and credit policies
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,9 +37,8 @@ from sklearn.metrics import silhouette_score
 import warnings
 warnings.filterwarnings('ignore')
 
-# 💼 Scenario: Retail Bank Customer Segmentation
 print("="*70)
-print("🏦 RETAIL BANK CUSTOMER SEGMENTATION")
+print("RETAIL BANK CUSTOMER SEGMENTATION")
 print("="*70)
 print("\nObjective: Group customers by Age and Annual Income")
 print("Purpose: Design targeted loan offers, investment plans, and campaigns\n")

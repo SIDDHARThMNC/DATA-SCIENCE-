@@ -1,3 +1,28 @@
+"""
+SCENARIO: Email Spam Detection
+
+An email service provider wants to automatically filter spam messages to protect users.
+
+FEATURES:
+- Email content and characteristics
+- Word frequency patterns
+- Sender information
+
+TARGET:
+- Spam: 1 (Unwanted email)
+- Ham: 0 (Legitimate email)
+
+OBJECTIVE:
+- Build Logistic Regression classifier to detect spam
+- Minimize false positives (legitimate emails marked as spam)
+- Maximize spam detection rate
+
+BUSINESS IMPACT:
+- Improved user experience
+- Reduced inbox clutter
+- Protection from phishing and malicious emails
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

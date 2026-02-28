@@ -1,3 +1,26 @@
+"""
+SCENARIO: Diabetes Risk Prediction
+
+A healthcare provider wants to predict diabetes risk based on patient BMI data.
+
+FEATURES:
+- BMI (Body Mass Index): Weight-to-height ratio
+
+TARGET:
+- Diabetic: 1 (Has diabetes)
+- Non-Diabetic: 0 (No diabetes)
+
+OBJECTIVE:
+- Build Logistic Regression model to classify diabetes risk
+- Evaluate model performance with accuracy, precision, recall
+- Identify BMI threshold for high-risk patients
+
+BUSINESS IMPACT:
+- Early intervention for at-risk patients
+- Preventive healthcare programs
+- Resource allocation for diabetes management
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

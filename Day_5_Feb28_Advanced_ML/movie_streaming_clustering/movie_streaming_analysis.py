@@ -1,3 +1,35 @@
+"""
+SCENARIO: Movie Streaming Platform User Segmentation
+
+A movie streaming company has collected data on 1,000 users to understand viewing patterns 
+and improve personalization.
+
+FEATURES:
+- Average watch time per week (hours)
+- Number of devices used (TV, phone, tablet)
+- Subscription pauses/cancellations frequency
+- Genre preferences (Action, Comedy, Drama percentages)
+
+OBJECTIVES:
+- Group users into meaningful segments using K-Means clustering
+- Use Elbow Method to find optimal number of clusters
+- Validate with Silhouette Score for cluster quality
+- Design targeted strategies for each user segment
+
+EXPECTED SEGMENTS:
+- Weekend Binge-Watchers: High engagement users
+- Casual Family Viewers: Occasional viewers
+- Genre Loyalists: Strong preference for specific genres
+- At-Risk Cancelers: High subscription pause frequency
+- Multi-Device Power Users: Active across platforms
+
+BUSINESS APPLICATIONS:
+- Personalized movie recommendations
+- Loyalty rewards for engaged users
+- Re-engagement campaigns for at-risk users
+- Content strategy based on genre preferences
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
