@@ -146,6 +146,18 @@
 
 ---
 
+## Day 6 (Mar 1, 2026) - Ridge Regression & Cross-Validation
+### Projects:
+1. **Student Grade Prediction with Cross-Validation** (`Day_6_Mar01_Ridge_CrossValidation/`)
+   - Ridge Regression for grade prediction
+   - K-Fold Cross-Validation (5 folds)
+   - Multi-metric evaluation (R² and MSE)
+   - Stratified K-Fold for pass/fail classification
+   - Training vs validation comparison
+   - Overfitting detection
+
+---
+
 ## Additional Projects (Various Days)
 ### Visualization & Analysis:
 - `ad_spend_sales_scatter.py` - Marketing analysis
