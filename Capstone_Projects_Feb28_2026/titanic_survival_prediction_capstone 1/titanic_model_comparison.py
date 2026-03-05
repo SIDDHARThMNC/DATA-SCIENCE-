@@ -222,7 +222,7 @@ plt.grid(True, alpha=0.3, axis='x')
 plt.suptitle('Titanic Survival Prediction - Model Comparison Analysis', 
              fontsize=16, fontweight='bold', y=0.995)
 plt.tight_layout()
-plt.savefig('titanic_survival_prediction_capstone 1/titanic_model_comparison.png', dpi=300, bbox_inches='tight')
+plt.savefig('Capstone_Projects_Feb28_2026/titanic_survival_prediction_capstone 1/titanic_model_comparison.png', dpi=300, bbox_inches='tight')
 print("\nVisualization saved to 'titanic_model_comparison.png'")
 
 plt.show()
