@@ -1,6 +1,4 @@
-# ============================================================================
 # Capstone Project 3: Smart Marketing Prediction System
-# ============================================================================
 # 
 # SCENARIO:
 # ShopEasy is a fast-growing e-commerce company struggling with inefficient 
@@ -23,7 +21,6 @@
 # Features: Age, Gender, Device, Traffic_Source, Time_on_Website, 
 #           Pages_Visited, Ad_Clicks, Previous_Purchases
 # Target: Purchased (0 or 1)
-# ============================================================================
 
 import numpy as np
 import pandas as pd
@@ -138,10 +135,11 @@ else:
 print("Prediction:", prediction)
 print("Purchase Probability:", probability)
 
-# ============================================================================
+print("Prediction:", prediction)
+print("Purchase Probability:", probability)
+
 # BUSINESS IMPACT:
 # - Marketing team can now target high-probability customers
 # - Reduce wasted ad spend on low-probability users
 # - Increase conversion rates by 40-60%
 # - Personalize marketing campaigns based on predictions
-# ============================================================================

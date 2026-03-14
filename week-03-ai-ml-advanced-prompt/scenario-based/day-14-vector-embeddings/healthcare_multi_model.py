@@ -101,3 +101,4 @@ print("  Euclidean -> Best for absolute distance in space")
 print("  Manhattan -> Robust to outliers, city-block distance")
 print("  Dot Prod  -> Considers both magnitude and direction")
 print("=" * 60)
+
